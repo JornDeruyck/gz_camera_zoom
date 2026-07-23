@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>gz_camera_zoom</name>
+  <version>0.1.0</version>
+  <description>Gazebo Sim system plugin providing continuous optical zoom control for camera sensors, driven via a gz-transport topic</description>
+  <maintainer email="jorn.deruyck@gmail.com">jorn-deruyck</maintainer>
+  <license>Apache-2.0</license>
+  <url type="website">https://github.com/JornDeruyck/gz_camera_zoom</url>
+  <url type="repository">https://github.com/JornDeruyck/gz_camera_zoom</url>
+  <url type="bugtracker">https://github.com/JornDeruyck/gz_camera_zoom/issues</url>
+  <author email="jorn.deruyck@gmail.com">Jorn Deruyck</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>ros-jazzy-gz-sim-vendor</depend>
+  <depend>ros-jazzy-gz-rendering-vendor</depend>
+  <depend>ros-jazzy-gz-transport-vendor</depend>
+  <depend>ros-jazzy-gz-msgs-vendor</depend>
+  <depend>ros-jazzy-gz-plugin-vendor</depend>
+  <depend>ros-jazzy-gz-common-vendor</depend>
+  <depend>ros-jazzy-gz-math-vendor</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_cmake_copyright</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,15 @@
+# colcon / ament build artifacts (this package is normally built inside a
+# larger workspace, but ignore these in case build/install/log land here too)
+build/
+install/
+log/
+
+# editor / IDE
+.vscode/
+.idea/
+compile_commands.json
+
+# misc
+*.o
+*.so
+*~
